@@ -1,0 +1,13 @@
+<!--client review section-->
+    <section class="client-reviews">
+        <div class="reviews">
+            <h3>Clients reviews </h3>
+            <img src="m2.jpg" alt="" class="p2">
+            <p>dhfhfhbfhrjdnfcdjbfhjhnbfhdjsdfghjertyuixcvbndfghj
+                ghjcvbnfghjxcvbnrtyuixcvbn,ghjkcvb
+            </p>
+            <h2>eslem ben redjem</h2>
+            <p>ceo of addle</p>
+        </div>
+    </section>
+    <!--update news section-->

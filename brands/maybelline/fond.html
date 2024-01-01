@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brand</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-UfQMNsW5RVmpMffxV2dMduPdyzx7p/whDNSuCc9EFan3tcWPNzTriiQECD7RjhIL98Xtl68iMgTgB7FkkftmlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="..\brand\logo.png" alt=""></a>
+        <ul class="navmenu">
+            <li><a href="..\..\home\home.html">Home</a></li>
+            <li><a href="../brand/brands.html">Brands</a></li>
+            <li><a href="..\..\tools\tools.html">MakeUp Tools</a></li>
+            <li><a href="..\..\asstuce\asstuce.html">Tricks</a></li>
+            <li><a href="https://www.youtube.com/channel/UC5kgxjxkkQsALS42diH7VJw">Tutorials</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="./../../home/form.html"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
+            <div id="menu-icon" class="bx bx-menu">
+            </div>
+        </div>
+    </header>
+    <!--product presentation-->
+    <section class="sec">
+    <div class="products">
+     <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="fitme.jpg" alt="">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="fitme.jpg" alt="" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="f2.jpg" alt="" onclick="showImg(this.src)">
+                </div>
+                
+            </div>
+        </div>
+        <div class="right">
+            <div class="pname">MAYBELLINE FOND DE TEINT" FIT ME MATTE "
+                </div>
+            <div class="ratings">
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">40.500dt</div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="5" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn"> Add to cart </button>
+                <button class="buy-btn"> Buy now </button>
+            </div>
+        </div>
+     </div>
+    </div>
+    </section> 
+     
+    
+    <!--contact- section-->
+    <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="..\brand\logo2.png" alt="" class="p2">
+                <p>rades ben aarous<br> tunisie </p>
+                <p>71 321 753</p>
+                <p>beautyshopt@gmail.com</p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.youtube.com/channel/UC5kgxjxkkQsALS42diH7VJw"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+            <div class="second-info">
+                <h4>support</h4>
+                <p><a href="../../home/home.html">Home</a></p>
+                <p><a href="../brand/brands.html">Brands</a></p>
+                <p><a href="../../tools/tools.html">MakeUp Tools</a></p>
+                <p><a href="../../asstuce/asstuce.html">Tricks</a></p>
+                <p><a href="https://www.youtube.com/channel/UC5kgxjxkkQsALS42diH7VJw">Tutorials</a></p>
+                <p><a href="../../home/form.html">Sign in </a> </p>
+            </div>
+            <div class="third-info">
+                <h4>Brands</h4>
+                <p><a href="../brand/essence.html">Essnece</a></p>
+                <p><a href="../brand/kolsi.html">Kolsi</a></p>
+                <p><a href="../brand/note.html">Note</a></p>
+                <p><a href="../brand/maybelline.html">Maybelline</a></p>
+                <p><a href="../brand/revolution.html">Revolution</a></p>
+                <p><a href="../brand/wetnwild.html">Wet n Wild</a></p>
+            </div>
+    </section>
+    <script src="product.js"></script>
+    <script src="java.js"></script>
+
+</body>
+</html>
